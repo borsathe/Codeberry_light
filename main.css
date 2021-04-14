@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
 
 html,
 body,
@@ -137,12 +134,19 @@ table {
 }
 
 
-/*end of css reset*/
+/* ==== HELPER COLORS FOR LAYOUT ==== */
 
-p {
-    color: turquoise;
+
+/* ==== HELPER COLORS FOR LAYOUT ==== */
+
+.main-header {
+    background-color: rgba(255, 248, 53, .3);
 }
 
-p {
-    font-size: 10px;
+.primary-content {
+    background-color: rgba(140, 96, 255, .3);
+}
+
+.post {
+    background-color: rgba(255, 0, 0, .2);
 }
