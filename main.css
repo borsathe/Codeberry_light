@@ -153,6 +153,9 @@ table {
 
 body {
     font-family: Merriweather, 'Times New Roman', serif;
+    font-size: 1.125rem;
+    color: #333;
+    line-height: 2rem;
 }
 
 h1,
@@ -160,26 +163,27 @@ h2 {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
-body {
-    font-size: 18px;
-    color: #333;
-    line-height: 32px;
-}
-
 h1 {
-    font-size: 28.8px;
+    font-size: 1.8rem;
 }
 
 h2 {
-    font-size: 25.6px;
+    font-size: 1.6rem;
     color: #e5127d;
 }
 
-.main-title {
+.main-header {
     color: #8c8e9b;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 1.125rem;
+    letter-spacing: 0.125rem;
 }
+
+.picture {
+    width: 100%;
+}
+
+
+/*Chekkolni az eredményt*/
 
 
 /*tipografia
