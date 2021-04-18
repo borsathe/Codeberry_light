@@ -178,21 +178,26 @@ h2 {
     letter-spacing: 0.125rem;
 }
 
-.picture {
-    width: 100%;
+
+/* ==== LAYOUT STYLES ==== */
+
+
+/* Main Header Styles */
+
+.main-header {
+    text-align: center;
+    padding: 1.25rem;
 }
 
 
-/*Chekkolni az eredményt*/
+/* Article Styles */
 
+.post {
+    width: 95%;
+    margin: 1.25rem auto;
+    padding: 0.3125rem;
+}
 
-/*tipografia
-Legyen a body betűmérete 18px.*
-Legyen a h1 címsorok betűmérete 28.8px.*
-Legyen a h2 címsorok betűmérete 25.6px.*
-A .main-header class p elemét célozva állítsd a betűméretet 18px-re.*
-Ugyanezen az elemen legyen a betűk közötti térköz 2px.*
-Legyen a body elemen belül a sormagasság 32px.
-A body szövegének színe legyen #333.*
-A h2 címsoroké #e5127d.*
-A p elem színe a header elemben pedig legyen #8c8e9b.* */
+.picture {
+    width: 100%;
+}
