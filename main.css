@@ -258,7 +258,7 @@ img,
     .primary-content {
         float: none;
         position: absolute;
-        left: 20.625%;
+        left: 25%;
     }
 }
 
@@ -267,7 +267,7 @@ img,
 
 .post {
     width: 95%;
-    margin: 1.25rem auto 1rem;
+    margin: 0 auto 1rem;
     padding: 0.3125rem;
 }
 
